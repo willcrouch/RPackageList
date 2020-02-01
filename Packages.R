@@ -30,7 +30,9 @@ Package_List = c(
   "rvest",
   "tidycensus",
   "installr",
-  "reinstallr"
+  "reinstallr",
+  "googledrive",
+  "googlesheets4"
 )
 
 # Get list of packages not current installed
