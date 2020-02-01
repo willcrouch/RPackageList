@@ -1,5 +1,4 @@
 # RPackageList
-Package list for R
 
 Initial Set-up: <br/>
 Install R - https://www.r-project.org/  <br/>
