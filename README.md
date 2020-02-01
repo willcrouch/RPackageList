@@ -1,7 +1,7 @@
 # RPackageList
 Package list for R
 
-Initial Set-up:
+Initial Set-up: <br/>
 Install R - https://www.r-project.org/
 Install RStudio - https://rstudio.com/
 
