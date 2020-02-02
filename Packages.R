@@ -32,7 +32,8 @@ Package_List = c(
   "reinstallr",
   "googledrive",
   "googlesheets4",
-  "plumber"
+  "plumber",
+  "mapdeck"
 )
 
 # Get list of packages not current installed
