@@ -16,4 +16,6 @@ script <- getURL(  <br/>
 
 eval(parse(text = script))  <br/>
 
-
+### Package Details
+If you want to dig into the packages, this Google Sheet has all the packages with the CRAN repository, Reference Manual, and a website for the package if applicable.
+http://bit.ly/2OKJrZl
