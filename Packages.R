@@ -46,6 +46,3 @@ if (length(Missing_Packages) > 0) {
 
 # Update existing packages
 update.packages(ask=FALSE)
-
-# Add map data from spData
-install.packages('spDataLarge', repos='https://nowosad.github.io/drat/', type='source')
