@@ -34,7 +34,8 @@ Package_List = c(
   "plumber",
   "mapdeck",
   "xgboost",
-  "sf"
+  "sf",
+  "quantmod"
 )
 
 # Get list of packages not current installed
