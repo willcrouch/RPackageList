@@ -35,7 +35,8 @@ Package_List = c(
   "mapdeck",
   "xgboost",
   "sf",
-  "fable"
+  "fable",
+  "googleCloudRunner"
 )
 
 # Get list of packages not current installed
