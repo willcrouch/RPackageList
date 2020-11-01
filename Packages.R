@@ -36,7 +36,8 @@ Package_List = c(
   "xgboost",
   "sf",
   "fable",
-  "googleCloudRunner"
+  "googleCloudRunner",
+  "remotes"
 )
 
 # Get list of packages not current installed
