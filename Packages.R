@@ -37,7 +37,9 @@ Package_List = c(
   "sf",
   "fable",
   "googleCloudRunner",
-  "remotes"
+  "remotes",
+  "future",
+  "doFuture"
 )
 
 # Get list of packages not current installed
