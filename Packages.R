@@ -39,7 +39,8 @@ Package_List = c(
   "googleCloudRunner",
   "remotes",
   "future",
-  "doFuture"
+  "doFuture",
+  "rstan
 )
 
 # Get list of packages not current installed
