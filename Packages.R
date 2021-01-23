@@ -40,7 +40,8 @@ Package_List = c(
   "remotes",
   "future",
   "doFuture",
-  "rstan
+  "rstan",
+  "JuliaCall"
 )
 
 # Get list of packages not current installed
