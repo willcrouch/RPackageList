@@ -53,3 +53,5 @@ if (length(Missing_Packages) > 0) {
 
 # Update existing packages
 update.packages(ask=FALSE)
+
+install.packages("h2o", type="source", repos=(c("http://h2o-release.s3.amazonaws.com/h2o/latest_stable_R")))
