@@ -36,6 +36,7 @@ Package_List = c(
   "xgboost",
   "matlib",
   "sf",
+  "fredr",
   "fable",
   "googleCloudRunner",
   "remotes",
