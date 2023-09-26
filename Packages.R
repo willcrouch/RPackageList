@@ -34,6 +34,7 @@ Package_List = c(
   "plumber",
   "mapdeck",
   "xgboost",
+  "matlib",
   "sf",
   "fable",
   "googleCloudRunner",
