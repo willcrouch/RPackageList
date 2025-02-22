@@ -27,6 +27,7 @@ Package_List = c(
   "DT",
   "jsonlite",
   "quantmod",
+  "tidyquant",
   "keras",
   "tensorflow",
   "vroom",
