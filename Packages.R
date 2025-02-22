@@ -45,8 +45,6 @@ Package_List = c(
   "matlib",
   "sf",
   "fredr",
-  "fable",
-  "googleCloudRunner",
   "remotes",
   "future",
   "doFuture",
