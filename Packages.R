@@ -3,12 +3,12 @@
 Package_List = c(
   "DBI",
   "odbc",
-  "httr",
+  "RMariaDB",
+  "httr2",
   "tidyverse",
   "lubridate",
-  "glue",
-  "stringr",
   "leaflet",
+  "leaflet.extras",
   "plotly",
   "randomForest",
   "nnet",
@@ -18,8 +18,13 @@ Package_List = c(
   "survival",
   "shiny",
   "shinydashboard",
+  "shinymanager",
+  "shinyWidgets",
+  "shinyBS",
+  "shinydashboardPlus",
   "rmarkdown",
   "data.table",
+  "DT",
   "jsonlite",
   "quantmod",
   "keras",
@@ -43,17 +48,5 @@ Package_List = c(
   "future",
   "doFuture",
   "rstan",
-  "JuliaCall"
+  "Rcpp"
 )
-
-# Get list of packages not current installed
-Missing_Packages <- Package_List[!(Package_List %in% installed.packages()[, "Package"])]
-# Install missing
-if (length(Missing_Packages) > 0) {
-  install.packages(Missing_Packages)
-}
-
-# Update existing packages
-update.packages(ask=FALSE)
-
-install.packages("h2o", type="source", repos=(c("http://h2o-release.s3.amazonaws.com/h2o/latest_stable_R")))
