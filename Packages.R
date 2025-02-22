@@ -53,7 +53,7 @@ Package_List = c(
 
 
 # Install packages not yet installed
-installed_packages <- packages %in% rownames(installed.packages())
+installed_packages <- Package_List %in% rownames(installed.packages())
 if (any(installed_packages == FALSE)) {
-  install.packages(packages[!installed_packages])
+  install.packages(Package_List[!installed_packages])
 }
